@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Task.MVVM.Views.PrivacyPolicy"
+             Title="Privacy Policy">
+    <VerticalStackLayout Spacing="25">
+        <Label 
+            Text=""
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label
+            Text="Hello user this is a simple application that will allow you to create, categories, and keep track of tasks you have made within the app with options to delete old tasks once completed, we do advice however that upon agreeing to utilize this app you are ok with us using you Personal Data and Task Data to help our application perform at the highest level. We will use your information to help you keep track of your planned tasks easier and more smoothness when creating said tasks, any information disclosed here will NOT be used outside of this application and/or shared with anyone, due to our high security precautions we take to ensure your data is safe and sound well in use to help our app provide for you better. Under the law of Protection of Data Rights. Any changes to this privacy policy will be updated immediately and you will have to reread the new terms and conditions before continuing to use the application, should you encounter any problems please contact us at 1-800-7844, with all this information in mind do you agree to our terms and services. "
+            VerticalOptions="Start"
+            FontSize="Micro"
+            HorizontalOptions="Center"/>
+        <Button
+            Text="Agree"
+            Clicked="PrivacyPolicyButtonClicked"/>
+    </VerticalStackLayout>
+</ContentPage>
